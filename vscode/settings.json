@@ -1,0 +1,80 @@
+{
+    "diffEditor.wordWrap": "off",
+    "editor.rulers": [
+        120
+    ],
+    "editor.minimap.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 3000,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+    "git.openRepositoryInParentFolders": "always",
+    "java.format.settings.url": "/home/remy/Documents/java-formatter.xml",
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64/",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/java-8-openjdk-amd64/",
+            "default": true
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/usr/lib/jvm/java-11-openjdk-amd64/",
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/java-17-openjdk-amd64/",
+        },
+    ],
+    "redhat.telemetry.enabled": false,
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "terminal.integrated.scrollback": 5000000,
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#ff0000",
+        "tab.unfocusedActiveBorder": "#000000",
+        "editorRuler.foreground": "#87a089"
+    },
+    "[markdown]": {
+        "diffEditor.wordWrap": "off",
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 200
+    },
+    "[python]": {
+        "editor.defaultFormatter": "mikoz.black-py"
+    },
+    "codeium.enableConfig": {
+        "*": true,
+        "python": false
+    },
+    "codeium.detectProxy": false,
+    "codeium.useSecretStorage": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "debug.javascript.autoAttachFilter": "always",
+    "git.mergeEditor": true,
+    "testing.automaticallyOpenPeekView": "never",
+    "testing.openTesting": "neverOpen",
+    "java.signatureHelp.enabled": false,
+    "codeium.enableCodeLens": false,
+    "workbench.startupEditor": "none",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "extensions.ignoreRecommendations": true,
+    "debug.terminal.clearBeforeReusing": true,
+}

@@ -1,0 +1,2 @@
+https://marketplace.visualstudio.com/items?itemName=Codeium.codeium
+https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack

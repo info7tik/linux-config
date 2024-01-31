@@ -1,0 +1,12 @@
+# Move this file to your home directory as .gitconfig
+[user]
+	email = monemail@home.com
+	name = My Name
+[core]
+	editor = vim
+[alias]
+	last = log -n 1 --stat
+	nlast = log -n 5 --oneline
+	graph = log --graph --oneline -n 20
+	logfile = log -n 5 --
+	aliases = config --get-regexp ^alias
