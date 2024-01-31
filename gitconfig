@@ -1,7 +1,6 @@
-# Move this file to your home directory as .gitconfig
 [user]
-	email = monemail@home.com
-	name = My Name
+	email = remy.pottier@easyvirt.com
+	name = RP
 [core]
 	editor = vim
 [alias]
@@ -10,3 +9,8 @@
 	graph = log --graph --oneline -n 20
 	logfile = log -n 5 --
 	aliases = config --get-regexp ^alias
+  branch = branch --sort=-
+[branch]
+	sort = committerdate
+[init]
+	defaultBranch = main
