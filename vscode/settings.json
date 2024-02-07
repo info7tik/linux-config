@@ -77,4 +77,5 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "extensions.ignoreRecommendations": true,
     "debug.terminal.clearBeforeReusing": true,
+    "editor.find.seedSearchStringFromSelection": "never",
 }

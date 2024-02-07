@@ -1,0 +1,11 @@
+# Install your g810-led profile here
+# (applied at boot or keyboard connection)
+# See /usr/share/doc/g810-led/examples/sample_profiles
+a 00ffff
+k escape ff0000
+k space ff0000
+k f ff0000
+k j ff0000
+k ctrlleft ff0000
+k shiftleft ff0000
+c
