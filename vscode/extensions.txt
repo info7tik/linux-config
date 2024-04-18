@@ -1,2 +1,11 @@
-https://marketplace.visualstudio.com/items?itemName=Codeium.codeium
+# Java
 https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+# Python
+https://marketplace.visualstudio.com/items?itemName=ms-python.python
+https://marketplace.visualstudio.com/items?itemName=mikoz.black-py
+# XML/HTML
+https://marketplace.visualstudio.com/items?itemName=NikolaosGeorgiou.html-fmt-vscode
+https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
+# TypeScript
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+https://marketplace.visualstudio.com/items?itemName=vespa-dev-works.jestRunIt

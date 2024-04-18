@@ -10,6 +10,8 @@
 	logfile = log -n 5 --
 	aliases = config --get-regexp ^alias
   branch = branch --sort=-
+  staged = diff --name-status --cached
+  resetall = clean -f -d
 [branch]
 	sort = committerdate
 [init]

@@ -10,8 +10,7 @@
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 3000,
+    "editor.wordWrapColumn": 120,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.eol": "\n",
@@ -60,17 +59,22 @@
         "editor.defaultFormatter": "mikoz.black-py"
     },
     "codeium.enableConfig": {
-        "*": true,
-        "python": false
+        "*": true
     },
     "codeium.detectProxy": false,
     "codeium.useSecretStorage": false,
-    "diffEditor.ignoreTrimWhitespace": false,
+    //"diffEditor.ignoreTrimWhitespace": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "debug.javascript.autoAttachFilter": "always",
     "git.mergeEditor": true,
+
+    // Do not open another view while running tests
     "testing.automaticallyOpenPeekView": "never",
     "testing.openTesting": "neverOpen",
+
+    // Disable all hover boxes (popups)
+    //"editor.hover.enabled": false,
+
     "java.signatureHelp.enabled": false,
     "codeium.enableCodeLens": false,
     "workbench.startupEditor": "none",
@@ -78,4 +82,35 @@
     "extensions.ignoreRecommendations": true,
     "debug.terminal.clearBeforeReusing": true,
     "editor.find.seedSearchStringFromSelection": "never",
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "twinny.apiHostname": "192.168.3.104",
+    "twinny.chatModelName": "mistral",
+    "twinny.fimModelName": "mistral",
+    "twinny.enabled": false,
+    "typescript.format.semicolons": "insert",
+    "typescript.npm": "/home/remy/.nvm/versions/node/v20.11.1/bin/npm",
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.semicolons": "remove",
+    "javascript.preferences.quoteStyle": "single",
+    "files.exclude": {
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
