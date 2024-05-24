@@ -269,4 +269,20 @@
         "key": "ctrl+shift+0",
         "command": "editor.action.fontZoomReset"
     },
+    {
+        "key": "ctrl+shift+t ctrl+shift+g",
+        "command": "-twinny.getGitCommitMessage"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
 ]

@@ -1,8 +1,6 @@
 {
     "diffEditor.wordWrap": "off",
-    "editor.rulers": [
-        120
-    ],
+    "editor.rulers": [120],
     "editor.minimap.enabled": false,
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
@@ -26,12 +24,12 @@
         },
         {
             "name": "JavaSE-11",
-            "path": "/usr/lib/jvm/java-11-openjdk-amd64/",
+            "path": "/usr/lib/jvm/java-11-openjdk-amd64/"
         },
         {
             "name": "JavaSE-17",
-            "path": "/usr/lib/jvm/java-17-openjdk-amd64/",
-        },
+            "path": "/usr/lib/jvm/java-17-openjdk-amd64/"
+        }
     ],
     "redhat.telemetry.enabled": false,
     "rsp-ui.enableStartServerOnActivation": [
@@ -56,13 +54,13 @@
         "editor.wordWrapColumn": 200
     },
     "[python]": {
-        "editor.defaultFormatter": "mikoz.black-py"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnSave": true
     },
-    "codeium.enableConfig": {
-        "*": true
-    },
-    "codeium.detectProxy": false,
-    "codeium.useSecretStorage": false,
+    "python.analysis.autoImportCompletions": true,
     //"diffEditor.ignoreTrimWhitespace": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "debug.javascript.autoAttachFilter": "always",
@@ -93,7 +91,11 @@
     "javascript.format.semicolons": "remove",
     "javascript.preferences.quoteStyle": "single",
     "files.exclude": {
+        ".venv": true,
+        "**/__init__.py": true,
+        "**/__pycache__": true,
         "**/dist": true,
+        "**/htmlcov": true,
         "**/node_modules": true
     },
     "[typescript]": {
@@ -113,4 +115,5 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "pylint.args": ["--max-line-length=120", "--disable=C0114,C0115,C0116"]
 }

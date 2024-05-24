@@ -2,7 +2,11 @@
 https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
 # Python
 https://marketplace.visualstudio.com/items?itemName=ms-python.python
-https://marketplace.visualstudio.com/items?itemName=mikoz.black-py
+https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
+https://marketplace.visualstudio.com/items?itemName=tushortz.python-extended-snippets
+https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
+https://marketplace.visualstudio.com/items?itemName=ms-python.pylint
 # XML/HTML
 https://marketplace.visualstudio.com/items?itemName=NikolaosGeorgiou.html-fmt-vscode
 https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
