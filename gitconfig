@@ -12,6 +12,8 @@
   branch = branch --sort=-
   staged = diff --name-status --cached
   resetall = clean -f -d
+  untrack = update-index --assume-unchanged
+  track = update-index --no-assume-unchanged
 [branch]
 	sort = committerdate
 [init]
