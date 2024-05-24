@@ -92,7 +92,6 @@
     "javascript.preferences.quoteStyle": "single",
     "files.exclude": {
         ".venv": true,
-        "**/__init__.py": true,
         "**/__pycache__": true,
         "**/dist": true,
         "**/htmlcov": true,
@@ -115,5 +114,6 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "pylint.args": ["--max-line-length=120", "--disable=C0114,C0115,C0116"]
+    "pylint.args": ["--max-line-length=120", "--disable=C0411,C0114,C0115,C0116"],
+    "python.analysis.extraPaths": []
 }
