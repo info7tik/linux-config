@@ -1,6 +1,8 @@
 {
     "diffEditor.wordWrap": "off",
-    "editor.rulers": [120],
+    "editor.rulers": [
+        120
+    ],
     "editor.minimap.enabled": false,
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
@@ -9,6 +11,16 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.wordWrapColumn": 120,
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.eol": "\n",
@@ -42,7 +54,6 @@
     "terminal.integrated.scrollback": 5000000,
     "update.showReleaseNotes": false,
     "update.mode": "none",
-    "workbench.colorTheme": "Default Light Modern",
     "workbench.colorCustomizations": {
         "tab.activeBorder": "#ff0000",
         "tab.unfocusedActiveBorder": "#000000",
@@ -58,26 +69,28 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         },
-        "editor.formatOnSave": true
     },
-    "ruff.format.args": ["--config", "line-length=120"],
+    "ruff.format.args": [
+        "--config",
+        "line-length=120"
+    ],
     "ruff.lint.args": [],
     "python.analysis.autoImportCompletions": true,
-    "pylint.args": ["--max-line-length=120", "--disable=C0411,C0114,C0115,C0116"],
+    "pylint.args": [
+        "--max-line-length=120",
+        "--disable=C0411,C0114,C0115,C0116"
+    ],
     "python.analysis.extraPaths": [],
     "pylint.cwd": "${workspaceFolder}/src",
     //"diffEditor.ignoreTrimWhitespace": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "debug.javascript.autoAttachFilter": "always",
+    "debug.javascript.autoAttachFilter": "disabled",
     "git.mergeEditor": true,
-
     // Do not open another view while running tests
     "testing.automaticallyOpenPeekView": "never",
     "testing.openTesting": "neverOpen",
-
     // Disable all hover boxes (popups)
     //"editor.hover.enabled": false,
-
     "java.signatureHelp.enabled": false,
     "codeium.enableCodeLens": false,
     "workbench.startupEditor": "none",
@@ -98,23 +111,8 @@
         "**/htmlcov": true,
         "**/node_modules": true
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.printWidth": 120,
-    "prettier.tabWidth": 4,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "editor.unicodeHighlight.includeStrings": false,
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+    "workbench.colorTheme": "Default Light+",
+    "editor.formatOnSave": true,
 }
