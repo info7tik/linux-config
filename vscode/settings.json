@@ -60,7 +60,12 @@
         },
         "editor.formatOnSave": true
     },
+    "ruff.format.args": ["--config", "line-length=120"],
+    "ruff.lint.args": [],
     "python.analysis.autoImportCompletions": true,
+    "pylint.args": ["--max-line-length=120", "--disable=C0411,C0114,C0115,C0116"],
+    "python.analysis.extraPaths": [],
+    "pylint.cwd": "${workspaceFolder}/src",
     //"diffEditor.ignoreTrimWhitespace": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "debug.javascript.autoAttachFilter": "always",
@@ -81,10 +86,6 @@
     "debug.terminal.clearBeforeReusing": true,
     "editor.find.seedSearchStringFromSelection": "never",
     "files.saveConflictResolution": "overwriteFileOnDisk",
-    "twinny.apiHostname": "192.168.3.104",
-    "twinny.chatModelName": "mistral",
-    "twinny.fimModelName": "mistral",
-    "twinny.enabled": false,
     "typescript.format.semicolons": "insert",
     "typescript.npm": "/home/remy/.nvm/versions/node/v20.11.1/bin/npm",
     "javascript.format.insertSpaceAfterConstructor": true,
@@ -114,6 +115,6 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "pylint.args": ["--max-line-length=120", "--disable=C0411,C0114,C0115,C0116"],
-    "python.analysis.extraPaths": []
+    "editor.unicodeHighlight.includeStrings": false,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
 }

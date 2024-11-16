@@ -285,4 +285,55 @@
         "key": "ctrl+alt+l",
         "command": "editor.action.transformToLowercase"
     },
+    {
+        "key": "ctrl+m ctrl+m",
+        "command": "workbench.panel.testResults.view.focus"
+    },
+    {
+        "key": "ctrl+[Comma] ctrl+shift+l",
+        "command": "-testing.coverageLastRun"
+    },
+    {
+        "key": "ctrl+[Comma] l",
+        "command": "-testing.reRunLastRun"
+    },
+    {
+        "key": "ctrl+l l",
+        "command": "testing.reRunLastRun"
+    },
+    {
+        "key": "ctrl+l ctrl+l",
+        "command": "testing.debugLastRun"
+    },
+    {
+        "key": "ctrl+[Comma] ctrl+l",
+        "command": "-testing.debugLastRun"
+    },
+    {
+        "key": "ctrl+l a",
+        "command": "testing.runAll"
+    },
+    {
+        "key": "ctrl+[Comma] a",
+        "command": "-testing.runAll"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+6",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "shift+alt+x",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+8",
+        "command": "-workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    }
 ]
