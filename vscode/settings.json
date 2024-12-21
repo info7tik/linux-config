@@ -115,4 +115,5 @@
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
     "workbench.colorTheme": "Default Light+",
     "editor.formatOnSave": true,
+    "testing.automaticallyOpenTestResults": "neverOpen",
 }
