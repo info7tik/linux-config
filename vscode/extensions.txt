@@ -13,3 +13,5 @@ https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
 # TypeScript
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 https://marketplace.visualstudio.com/items?itemName=vespa-dev-works.jestRunIt
+# Angular
+https://marketplace.visualstudio.com/items?itemName=Angular.ng-template
