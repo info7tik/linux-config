@@ -1,20 +1,21 @@
 [user]
-	email = info7tik@gmail.com
-	name = info7tik
+  email = info7tik@gmail.com
+  name = info7tik
 [core]
-	editor = vim
+  editor = vim
 [alias]
-	last = log -n 1 --stat
-	nlast = log -n 5 --oneline
-	graph = log --graph --oneline -n 20
-	logfile = log -n 5 --
-	aliases = config --get-regexp ^alias
+  aliases = config --get-regexp ^alias
   branch = branch --sort=-
-  staged = diff --name-status --cached
+  graph = log --graph --oneline -n 20
+  history = log -p --
+  last = log -n 1 --stat
+  logfile = log -n 5 --
+  nlast = log -n 5 --oneline
   resetall = clean -f -d
-  untrack = update-index --assume-unchanged
+  staged = diff --name-status --cached
   track = update-index --no-assume-unchanged
+  untrack = update-index --assume-unchanged
 [branch]
-	sort = committerdate
+  sort = committerdate
 [init]
-	defaultBranch = main
+  defaultBranch = main
