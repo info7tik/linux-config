@@ -351,5 +351,15 @@
     {
         "key": "f9",
         "command": "workbench.action.debug.continue"
+    },
+    {
+        "key": "shift+alt+capslock",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.findReferences",
+        "when": "editorHasReferenceProvider"
     }
 ]
