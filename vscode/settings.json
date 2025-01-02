@@ -90,9 +90,8 @@
     "testing.automaticallyOpenPeekView": "never",
     "testing.openTesting": "neverOpen",
     // Disable all hover boxes (popups)
-    //"editor.hover.enabled": false,
+    "editor.hover.enabled": true,
     "java.signatureHelp.enabled": false,
-    "codeium.enableCodeLens": false,
     "workbench.startupEditor": "none",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "extensions.ignoreRecommendations": true,
@@ -101,8 +100,10 @@
     "files.saveConflictResolution": "overwriteFileOnDisk",
     "typescript.format.semicolons": "insert",
     "typescript.npm": "/home/remy/.nvm/versions/node/v20.11.1/bin/npm",
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.semicolons": "insert",
     "javascript.format.insertSpaceAfterConstructor": true,
-    "javascript.format.semicolons": "remove",
     "javascript.preferences.quoteStyle": "single",
     "files.exclude": {
         ".venv": true,
