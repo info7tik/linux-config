@@ -17,10 +17,12 @@
     },
     "[html]": {
         "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.html-language-features",
     },
     "[css]": {
         "editor.tabSize": 2,
     },
+    "window.title": "${rootName}${separator}${appName}",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.eol": "\n",
@@ -70,25 +72,18 @@
             "source.organizeImports": "explicit"
         },
     },
-    "ruff.format.args": [
-        "--config",
-        "line-length=120"
-    ],
-    "ruff.lint.args": [],
+    "python.analysis.extraPaths": [],
     "python.analysis.autoImportCompletions": true,
     "pylint.args": [
         "--max-line-length=120",
-        "--disable=C0411,C0114,C0115,C0116"
+        "--disable=C0411,C0114,C0115,C0116,R1705,W0718,W0719"
     ],
-    "python.analysis.extraPaths": [],
-    "pylint.cwd": "${workspaceFolder}/src",
     //"diffEditor.ignoreTrimWhitespace": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "debug.javascript.autoAttachFilter": "disabled",
     "git.mergeEditor": true,
     // Do not open another view while running tests
     "testing.automaticallyOpenPeekView": "never",
-    "testing.openTesting": "neverOpen",
     // Disable all hover boxes (popups)
     "editor.hover.enabled": true,
     "java.signatureHelp.enabled": false,
@@ -117,4 +112,5 @@
     "workbench.colorTheme": "Default Light+",
     "editor.formatOnSave": true,
     "testing.automaticallyOpenTestResults": "neverOpen",
+    "testing.openTesting": "neverOpen",
 }

@@ -1,14 +1,15 @@
+bookstack - documentation (docker)
 chromium - ublock origin
 https://github.com/popov895/dash-to-dock-workaround (correction du bug overlap windows after locking screen)
 discord
 docker
-gnome-todo
 firefox - downloadhelper
 firefox - ublock origin
 gimp
 git
 gitk (vim ~/.config/git/gitk - set want_ttk 1)
 gparted
+kanboard (docker)
 libreoffice writer
 libreoffice calc
 mariadb-client
