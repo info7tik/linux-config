@@ -8,5 +8,10 @@ sudo systemctl restart systemd-logind.service
 ```
 gsettings set org.gnome.settings-daemon.plugins.media-keys calculator-static "['']"
 gsettings set org.gnome.settings-daemon.plugins.media-keys email-static "['']"
-Alt+F2 > r
+Alt+F2 > r (with Wayland => "log out")
 ```
+* Sound Volume Control keyboard shortcuts
+Open the keyboard shortcut settings > Keyboard Shortcuts > View and Customize Shortcuts > Sound And Media
+  - volume up
+  - volume down
+  - volume mute/unmute
