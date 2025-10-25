@@ -1,0 +1,8 @@
+# location: /etc/udev/hwdb.d/
+# sudo systemd-hwdb update; sudo udevadm trigger
+# Use 'cat /proc/bus/input/devices' to retrieve device names
+# Use 'sudo evtest' to show the keys
+# source: https://www.reddit.com/r/linux_gaming/comments/nypsi1/updated_guide_to_remapping_keys_on_linux_using/
+#
+evdev:name:AT Translated Set 2 keyboard:*
+ KEYBOARD_KEY_d1=BRIGHTNESSUP
