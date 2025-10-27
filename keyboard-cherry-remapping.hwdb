@@ -1,0 +1,6 @@
+# location: /etc/udev/hwdb.d/
+# sudo systemd-hwdb update; sudo udevadm trigger
+evdev:name:Cherry GmbH CHERRY USB Keyboard Consumer Control:*
+ KEYBOARD_KEY_c0192=mute
+ KEYBOARD_KEY_c018a=volumedown
+ KEYBOARD_KEY_c0223=volumeup
